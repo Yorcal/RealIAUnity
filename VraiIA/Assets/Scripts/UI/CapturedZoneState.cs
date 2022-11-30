@@ -25,26 +25,33 @@ public class CapturedZoneState : BaseZoneState
 
     public override void FixedUpdateState()
     {
-        if (_machine._scoreZone >= 5)
+        if ((_machine._redCaptured == true ) & (_machine.BlueCap == false))
         {
-            if((_machine.blueCol) & (_machine._scoreZone >= 5))
-            {
-                Debug.Log("Blue Capturing .....");
-                _machine._scoreBlue += Time.fixedDeltaTime;
-                if ( _machine._scoreBlue > 5)
-                {
-                    _machine.changeState(EzoneState.GAMEEND);
-                }
-            }
-            if((_machine.redCol) & (_machine._scoreRed >= 5))
-            {
-                Debug.Log("Red Capturing .....");
-                _machine._scoreRed += Time.fixedDeltaTime;
-                if (_machine._scoreRed > 5)
-                {
-                    _machine.changeState(EzoneState.GAMEEND);
-                }
-            } 
+            _machine._scoreRed += Time.fixedDeltaTime;
+            Debug.Log(Mathf.FloorToInt(_machine._scoreRed));
+        }
+        else if ((_machine._blueCaptured == true ) & (_machine.RedCap == false))
+        {
+            _machine._scoreBlue += Time.fixedDeltaTime;
+            Debug.Log(Mathf.FloorToInt(_machine._scoreBlue));
+        }
+        else if((_machine._redCaptured == true) & (_machine.BlueCap == true))
+        {
+            _machine._redCaptured = false;
+            _machine.changeState(EzoneState.ONCAPTURE);
+        }
+        else if((_machine._blueCaptured == true) & (_machine.RedCap == true))
+        {
+            _machine._blueCaptured = false;
+            _machine.changeState(EzoneState.ONCAPTURE);
+        }
+        if((_machine._scoreZoneRed >= 15) & (_machine._scoreRed >= 15))
+        {
+            _machine.changeState(EzoneState.GAMEEND);
+        }
+        if((_machine._scoreZoneBlue >= 15) & (_machine._scoreBlue >= 15))
+        {
+            _machine.changeState(EzoneState.GAMEEND);
         }
     }
 

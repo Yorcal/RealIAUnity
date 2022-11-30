@@ -28,15 +28,47 @@ public class OnCaptureZoneState : BaseZoneState
 
     public override void FixedUpdateState()
     {
-        _machine._scoreZone +=  Time.fixedDeltaTime;
-        Debug.Log(_machine._scoreZone);
-        if(_machine._scoreZone >=15)
-        {
-            _machine.changeState(EzoneState.CAPTURED);
-        }
         if (_machine.BlueCap == false & _machine.RedCap == false)
         {
             _machine.changeState(EzoneState.DECREASING);
+        }
+        if (_machine.BlueCap == true)
+        {
+            if (_machine._scoreZoneRed <= 0)
+            {
+                _machine._scoreZoneBlue += Time.fixedDeltaTime;
+                Debug.Log(_machine._scoreZoneBlue);   
+            }
+            else
+            {
+                _machine._scoreZoneRed -= Time.fixedDeltaTime;
+                Debug.Log(_machine._scoreZoneRed);
+            }
+        }
+        if (_machine.RedCap == true)
+        {
+            if (_machine._scoreZoneBlue <= 0)
+            {
+                _machine._scoreZoneRed += Time.fixedDeltaTime;
+                Debug.Log(_machine._scoreZoneRed);
+            }
+            else
+            {
+                _machine._scoreZoneBlue -= Time.fixedDeltaTime;
+                Debug.Log(_machine._scoreZoneBlue);
+            }
+        }
+        if(_machine._scoreZoneBlue >=15)
+        {
+            _machine._blueCaptured = true;
+            Debug.Log(_machine._blueCaptured);
+            _machine.changeState(EzoneState.CAPTURED);
+        }
+        if(_machine._scoreZoneRed >= 15)
+        {
+            _machine._redCaptured = true;
+            Debug.Log(_machine._redCaptured);
+            _machine.changeState(EzoneState.CAPTURED);
         }
     }
 

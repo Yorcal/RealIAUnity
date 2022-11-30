@@ -25,9 +25,21 @@ public class DecreasingZoneState : BaseZoneState
 
     public override void FixedUpdateState()
     {
-        _machine._scoreZone -=  Time.fixedDeltaTime;
-        Debug.Log(_machine._scoreZone);
-        if(_machine._scoreZone <= 0)
+        if(_machine._scoreZoneBlue > 0)
+        {
+            _machine._scoreZoneBlue -=  Time.fixedDeltaTime;
+            Debug.Log(Mathf.FloorToInt(_machine._scoreZoneBlue));
+        }
+        if(_machine._scoreZoneRed > 0)
+        {
+            _machine._scoreZoneRed -= Time.fixedDeltaTime;
+            Debug.Log(Mathf.FloorToInt(_machine._scoreZoneRed));
+        }
+        if(_machine._scoreZoneBlue <= 0 & _machine._scoreZoneRed <= 0)
+        {
+            _machine.changeState(EzoneState.FREE);
+        }
+        else if(_machine._scoreZoneRed <= 0 & _machine._scoreZoneBlue <= 0)
         {
             _machine.changeState(EzoneState.FREE);
         }

@@ -15,10 +15,7 @@ public class FreeZoneState : BaseZoneState
     #region Methods   
     public override void StartState()
     {
-       if (_machine._scoreZone <= 0)
-       {
-            _machine._scoreZone = 0;
-       }
+       
     }
 
     public override void UpdateState()

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class ZoneStateMachine : MonoBehaviour
 {
@@ -13,13 +15,24 @@ public class ZoneStateMachine : MonoBehaviour
     public BaseZoneState CurrentZoneState => _statesZoneDict[_curentZoneState];
     public EzoneState CurrentStateType => _curentZoneState;
     public EzoneState LastZoneState;
-    public float _scoreZone = 0;
+    public float _scoreZoneBlue = 0;
+    public float _scoreZoneRed = 0;
     public float _scoreRed = 0;
     public float _scoreBlue = 0;
     public bool redCol = false;
     public bool blueCol = false;
     public bool RedCap = false;
     public bool BlueCap = false;
+    public bool _redCaptured = false;
+    public bool _blueCaptured = false;
+    public Slider score;
+    public Slider scoreBlueSlider;
+    public Slider scoreRedSlider;
+    public Image fillscore;
+    public TextMeshProUGUI text;
+    public TextMeshProUGUI scoreRed;
+    public TextMeshProUGUI scoreBlue;
+    
     #endregion
 
     #region Methods
@@ -66,6 +79,26 @@ public class ZoneStateMachine : MonoBehaviour
     private void Update()
     {
         CurrentZoneState.UpdateState();
+        if(_scoreZoneBlue > _scoreZoneRed)
+        {
+            int percent = (int)((_scoreZoneBlue / 15) * 100);
+            int scb = (int)(_scoreBlue);
+            fillscore.color = Color.blue;
+            score.value = _scoreZoneBlue;
+            scoreBlueSlider.value = _scoreBlue;
+            text.text = percent.ToString();
+            scoreBlue.text = scb.ToString();
+        }
+        else
+        {
+            int percent = (int)((_scoreZoneRed / 15) * 100);
+            int scr = (int)(_scoreRed);
+            fillscore.color = Color.red;
+            score.value = _scoreZoneRed;
+            scoreRedSlider.value = _scoreRed;
+            text.text = percent.ToString();
+            scoreRed.text = scr.ToString();
+        }
     }
 
     private void FixedUpdate()
