@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/_Complete-Game.unity
-=======
-- path: Assets/Scenes/TestVincent.unity
->>>>>>> 1b6bbb2d053b8da8f97353839c2c4e7cb32e3674
   isLoaded: 1
   isActive: 1
   isSubScene: 0
