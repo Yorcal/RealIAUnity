@@ -12,15 +12,15 @@ public class CapturedZoneState : BaseZoneState
 
     #endregion
 
-    #region Methods   
+    #region Methods
     public override void StartState()
     {
-      
+
     }
 
     public override void UpdateState()
     {
-        
+
     }
 
     public override void FixedUpdateState()
