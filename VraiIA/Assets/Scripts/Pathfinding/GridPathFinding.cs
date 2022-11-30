@@ -28,9 +28,29 @@ public class GridPathFinding : MonoBehaviour
             for (int y=0; y<gridSizeY; y++) {
                 Vector3 worldPoint = worldBottomLeft + Vector3.right * (x * nodeDiameter + nodeRadius) + Vector3.forward * (y * nodeDiameter + nodeRadius);
                 bool walkable = !(Physics.CheckSphere(worldPoint, nodeRadius, unwalkableMask));
-                grid[x,y] = new NodePathFinding(walkable, worldPoint);
+                grid[x,y] = new NodePathFinding(walkable, worldPoint, x, y);
             }
         }
+    }
+
+    public List<NodePathFinding> GetNeighbours(NodePathFinding node) {
+        List<NodePathFinding> neighbours = new List<NodePathFinding>();
+
+        for (int x=-1; x<=1; x++) {
+            for(int y=-1; y <=1; y++) {
+                if(x==0 && y==0)
+                    continue;
+
+                int checkX = node.gridX + x;
+                int checkY = node.gridY + y;
+
+                if(checkX >= 0 && checkX < gridSizeX && checkY >= 0 && checkY < gridSizeY) {
+                    neighbours.Add(grid[checkX, checkY]);
+                }
+            }
+        }
+
+        return neighbours;
     }
 
     public NodePathFinding NodeFromWorldPoint(Vector3 worldPosition) {
@@ -44,6 +64,9 @@ public class GridPathFinding : MonoBehaviour
         return grid[x,y];
     }
 
+
+    public List<NodePathFinding> path;
+
     void OnDrawGizmos(){
         Gizmos.DrawWireCube(transform.position,new Vector3(gridWorldSize.x,1,gridWorldSize.y));
 
@@ -51,9 +74,16 @@ public class GridPathFinding : MonoBehaviour
             NodePathFinding playerNode = NodeFromWorldPoint(player.position);
             foreach (NodePathFinding n in grid) {
                 Gizmos.color = (n.walkable)?Color.green:Color.red;
-                if(playerNode == n){
+                if (playerNode == n){
                     Gizmos.color = Color.cyan;
                 }
+
+                if (path != null) {
+                    if (path.Contains(n)) {
+                        Gizmos.color = Color.magenta;
+                    }
+                }
+
                 Gizmos.DrawCube(n.worldPosition, Vector3.one * (nodeDiameter-.1f));
             }
         }
