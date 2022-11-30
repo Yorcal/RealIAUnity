@@ -18,6 +18,8 @@ public class ZoneStateMachine : MonoBehaviour
     public float _scoreBlue = 0;
     public bool redCol = false;
     public bool blueCol = false;
+    public bool RedCap = false;
+    public bool BlueCap = false;
     #endregion
 
     #region Methods

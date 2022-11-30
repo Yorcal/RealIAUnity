@@ -31,6 +31,10 @@ public class DecreasingZoneState : BaseZoneState
         {
             _machine.changeState(EzoneState.FREE);
         }
+        else if(_machine.BlueCap == true || _machine.RedCap == true)
+        {
+            _machine.changeState(EzoneState.ONCAPTURE);
+        }
     }
 
     public override void LeaveState()

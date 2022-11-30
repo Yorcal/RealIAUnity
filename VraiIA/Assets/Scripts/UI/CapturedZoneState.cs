@@ -27,7 +27,7 @@ public class CapturedZoneState : BaseZoneState
     {
         if (_machine._scoreZone >= 5)
         {
-            if(_machine.blueCol && _machine._scoreZone >= 5)
+            if((_machine.blueCol) & (_machine._scoreZone >= 5))
             {
                 Debug.Log("Blue Capturing .....");
                 _machine._scoreBlue += Time.fixedDeltaTime;
@@ -35,16 +35,16 @@ public class CapturedZoneState : BaseZoneState
                 {
                     _machine.changeState(EzoneState.GAMEEND);
                 }
-            if(_machine._scoreRed && _machine._scoreRed >= 5)
+            }
+            if((_machine.redCol) & (_machine._scoreRed >= 5))
+            {
                 Debug.Log("Red Capturing .....");
                 _machine._scoreRed += Time.fixedDeltaTime;
                 if (_machine._scoreRed > 5)
                 {
                     _machine.changeState(EzoneState.GAMEEND);
                 }
-            }
-            
-            
+            } 
         }
     }
 

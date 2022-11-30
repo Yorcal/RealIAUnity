@@ -7,6 +7,7 @@ public abstract class BaseZoneState
     #region Fields
     protected EzoneState _state = EzoneState.FREE;
     protected ZoneStateMachine _machine = null;
+    protected ZoneCollider _collider = null;
     #endregion
 
     #region Properties
