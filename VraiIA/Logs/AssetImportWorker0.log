@@ -15,11 +15,19 @@ C:/Users/ajolivier/Desktop/RealIAUnity/VraiIA
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 59936
 Successfully changed project path to: C:/Users/ajolivier/Desktop/RealIAUnity/VraiIA
 C:/Users/ajolivier/Desktop/RealIAUnity/VraiIA
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 50.91 ms, found 2 plugins.
+=======
+57650
+Successfully changed project path to: C:/Users/vtalbotier/Desktop/IAUnity/RealIAUnity/VraiIA
+C:/Users/vtalbotier/Desktop/IAUnity/RealIAUnity/VraiIA
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 58.60 ms, found 2 plugins.
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,6 +43,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -48,11 +57,27 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (482ms)
 		BeginReloadAssembly (52ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001454 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.428 seconds
+Domain Reload Profiling:
+	ReloadAssembly (428ms)
+		BeginReloadAssembly (37ms)
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (358ms)
 			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -60,19 +85,36 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (21ms)
 			SetupLoadedEditorAssemblies (145ms)
+=======
+		EndReloadAssembly (336ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (107ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (134ms)
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 				RefreshPlugins (52ms)
 				BeforeProcessingInitializeOnLoad (6ms)
 				ProcessInitializeOnLoadAttributes (63ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
+=======
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.005560 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -83,10 +125,107 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (978ms)
 		BeginReloadAssembly (130ms)
+=======
+Registered in 0.005410 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022B7E7AFA10 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Purchasing.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984342040 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983081A30 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983D8E050 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983D8E050 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E4CE530 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E5FE070 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983095640 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E953020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleMacosStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298328F030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E66E540 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983ABB010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E7036C0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983AE8C20 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983D8E050 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983AE8C20 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298328F030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E650020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983851010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E650020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983D8E050 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983F9B450 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E766050 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022982F36010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983F9B450 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E248440 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E4CE530 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229833B0010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E4A5010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E921040 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298323A020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983832340 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E6EC020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229835C5010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229835EC820 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7EBAD010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298323A020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7ECF4730 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7ECF4730 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298416AE80 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983782A40 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984434030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Domain Reload Profiling:
+	ReloadAssembly (754ms)
+		BeginReloadAssembly (104ms)
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (18ms)
 		EndReloadAssembly (771ms)
 			LoadAssemblies (87ms)
@@ -95,12 +234,27 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (37ms)
 			SetupLoadedEditorAssemblies (294ms)
+=======
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (607ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (251ms)
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
+<<<<<<< HEAD
 				BeforeProcessingInitializeOnLoad (59ms)
 				ProcessInitializeOnLoadAttributes (199ms)
+=======
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
@@ -112,12 +266,17 @@ Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2354 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 98.9 MB.
 System memory in use after: 99.0 MB.
 
+<<<<<<< HEAD
 Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2754.
 Total: 4.509700 ms (FindLiveObjects: 0.153700 ms CreateObjectMapping: 0.072100 ms MarkObjects: 4.206100 ms  DeleteObjects: 0.076200 ms)
+=======
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2755.
+Total: 4.133400 ms (FindLiveObjects: 0.150200 ms CreateObjectMapping: 0.063600 ms MarkObjects: 3.813200 ms  DeleteObjects: 0.094600 ms)
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,6 +290,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   path: Assets/Scripts/UI/BaseZoneState.cs
   artifactKey: Guid(2772def43cbc52547a6affbfe94773bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/UI/BaseZoneState.cs using Guid(2772def43cbc52547a6affbfe94773bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a654f936ff728add3fda8363db377c7b') in 0.014199 seconds 
@@ -191,25 +351,556 @@ Received Import Request.
   artifactKey: Guid(bdfe934b1d17a91428d9bf4bdc0318c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/UI/ZoneCollider.cs using Guid(bdfe934b1d17a91428d9bf4bdc0318c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc5ab68319e4d59afef7d1aabab1b99') in 0.001884 seconds 
   Import took 0.004371 seconds .
+=======
+  path: Assets/Scripts/Pathfinding/GridPathFinding.cs
+  artifactKey: Guid(8e223741951e50d40ab3227ee9d787ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pathfinding/GridPathFinding.cs using Guid(8e223741951e50d40ab3227ee9d787ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb47100d50c50e77fcd4076ac65fa7d') in 0.011732 seconds 
+  Import took 0.014136 seconds .
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.006248 seconds.
 Begin MonoManager ReloadAssembly
+=======
+Registered in 0.004902 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022988F5ED70 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Purchasing.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229B5DBE120 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298798E050 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298412E020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E650020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988F215C0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7EB9E010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229834BC020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988E31480 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleMacosStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7EE72010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298798E050 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7EA4A020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988E22F90 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022986BF2020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298412E020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984160A90 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E9BB020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E9BB020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298335C010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E9BB020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298412E020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988502930 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7EA77C30 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E5FE070 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229885032B0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E24CF40 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984002A50 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E5FE070 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984185010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E5876A0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298323A020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983AA6A20 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988149450 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229835C5010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022986B3A010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987722010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298323A020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E650020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298412E020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988E31480 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984002A50 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984269BD0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.743 seconds
 Domain Reload Profiling:
 	ReloadAssembly (743ms)
 		BeginReloadAssembly (89ms)
+=======
+- Completed reload, in  0.767 seconds
+Domain Reload Profiling:
+	ReloadAssembly (767ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (627ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (248ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2757.
+Total: 4.123000 ms (FindLiveObjects: 0.141000 ms CreateObjectMapping: 0.061500 ms MarkObjects: 3.895000 ms  DeleteObjects: 0.024600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1983.957646 seconds.
+  path: Assets/Scripts/Pathfinding/NodePathFinding.cs
+  artifactKey: Guid(07ba27ff5d7a19a47af70b939123c7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pathfinding/NodePathFinding.cs using Guid(07ba27ff5d7a19a47af70b939123c7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22c39dfd2e731748abfde3649a20316') in 0.004518 seconds 
+  Import took 0.007513 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005949 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022988F553E0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Purchasing.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229B5DBE120 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298798D840 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E4E3350 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983F98430 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988F210B0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987DA6020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229837E7030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298980B0E0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleMacosStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987E11020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987EE0010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987FE4010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022989875F90 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022986BF2020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E4E3350 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984160A90 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984CC2010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229837E7030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298495A020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229837E7030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298412E020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229885032B0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7EDA3470 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E5FE070 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229885032B0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E252440 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E280790 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E5FE070 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987E7A020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229B5DC5850 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022986F8B650 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298784F5D0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983AF8820 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022982F36010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E90D010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987843020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022986F8B650 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298709D840 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298412E020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298980B0E0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229898E73B0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298833B320 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Domain Reload Profiling:
+	ReloadAssembly (771ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (635ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (246ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 95.1 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2759.
+Total: 4.349600 ms (FindLiveObjects: 0.146500 ms CreateObjectMapping: 0.064600 ms MarkObjects: 4.096100 ms  DeleteObjects: 0.041300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004765 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022988F675F0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Purchasing.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229B5DBE120 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984160A90 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E4E3350 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7EDA0020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988F20180 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022982FE7010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229837E7030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298A75D860 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleMacosStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987E11020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984160A90 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229870F2020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298A7BD4D0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229830C3420 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E4E3350 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984160A90 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984CC2010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229837E7030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298495A020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229837E7030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298412E020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298382FAD0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022986CD14D0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022989188020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983830DD0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E24F740 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E2824A0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022989188020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298771B060 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983242D20 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987EE0010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987261180 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022986BD9030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022986D6FF40 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229830C3420 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298A99A040 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022982FE7010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7EDA0020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298412E020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298A75D860 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988F266C0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984269BD0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.728 seconds
+Domain Reload Profiling:
+	ReloadAssembly (729ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.1 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2761.
+Total: 4.104800 ms (FindLiveObjects: 0.147700 ms CreateObjectMapping: 0.059300 ms MarkObjects: 3.861500 ms  DeleteObjects: 0.035400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004744 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002298B47D390 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Purchasing.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7EDA0020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229881E3020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E4E3350 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E86AF20 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988F25790 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298ABFE1B0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229837E7030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298B1362E0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleMacosStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987E11020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229881E3020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987FE4010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298B1B59D0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022989A05A00 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E4E3350 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984160A90 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984CC2010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229837E7030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229872E8020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229837E7030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298412E020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983830DD0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298413D4D0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022989188020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229838301F0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E254240 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298B001060 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022989188020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298433A030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983710830 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229881E3020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298413D4D0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022986BD9030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988F70F60 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022989A05A00 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298476D040 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229881E3020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E86AF20 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298412E020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298B13B4D0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988F21AD0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022982E691D0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.772 seconds
+Domain Reload Profiling:
+	ReloadAssembly (772ms)
+		BeginReloadAssembly (90ms)
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (24ms)
+<<<<<<< HEAD
 		EndReloadAssembly (610ms)
 			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -329,10 +1020,160 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (27ms)
 			SetupLoadedEditorAssemblies (226ms)
+=======
+		EndReloadAssembly (639ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.1 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2763.
+Total: 4.248200 ms (FindLiveObjects: 0.144900 ms CreateObjectMapping: 0.059100 ms MarkObjects: 4.016800 ms  DeleteObjects: 0.026000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004550 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002298B47F5B0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Purchasing.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7EDA0020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298798D840 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E4E3350 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298B49A020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988F25790 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298463C030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229837E7030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298B8CC640 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleMacosStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229881E3020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298798D840 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987FE4010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298B90C9D0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298AD606C0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E4E3350 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984160A90 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984CC2010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229837E7030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229839EB020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229837E7030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298412E020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022989A38FB0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298BCE7D60 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298754F020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022989A38FB0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E2508C0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298B0004C0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298754F020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022989A31030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298BCE10F0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298798D840 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298BCE7D60 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022989DA6010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229847B0030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298AD606C0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298BCE7D60 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298798D840 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298B49A020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298412E020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298B8CC640 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988F24350 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022982E72700 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Domain Reload Profiling:
+	ReloadAssembly (733ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (249ms)
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
+<<<<<<< HEAD
 				BeforeProcessingInitializeOnLoad (43ms)
 				ProcessInitializeOnLoadAttributes (149ms)
 				ProcessInitializeOnLoadMethodAttributes (25ms)
@@ -461,6 +1302,24 @@ System memory in use after: 95.0 MB.
 
 Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2764.
 Total: 4.312800 ms (FindLiveObjects: 0.159600 ms CreateObjectMapping: 0.061100 ms MarkObjects: 4.059200 ms  DeleteObjects: 0.031900 ms)
+=======
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2765.
+Total: 3.947700 ms (FindLiveObjects: 0.140900 ms CreateObjectMapping: 0.069000 ms MarkObjects: 3.716600 ms  DeleteObjects: 0.020300 ms)
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -475,6 +1334,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.004938 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -773,10 +1633,99 @@ Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.005286 seconds.
 Begin MonoManager ReloadAssembly
+=======
+Registered in 0.004530 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002298B487E30 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Purchasing.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7EDA0020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022982FE7010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987B7D340 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987996CA0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988F21FE0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298337E030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229837E7030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298BF8BBE0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleMacosStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229881E3020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022982FE7010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987FE4010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298C01A8C0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229873BD030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987B7D340 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298708D830 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984CC2010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229837E7030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022986B4C420 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000229837E7030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987B7D340 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022989A39DF0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298C41C350 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E5FE070 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022989A38FB0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E255B40 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298C188C40 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298754F020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022987B7D340 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022B7E4E7620 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298337E030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298C41C350 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298709B840 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022983851010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298AAB8010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298A9A0080 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298337E030 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022982FF2020 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022984185010 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002298BF8BBE0 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988F24D70 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022988331060 doesn't match image C:\Users\vtalbotier\Desktop\IAUnity\RealIAUnity\VraiIA\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.711 seconds
 Domain Reload Profiling:
 	ReloadAssembly (711ms)
@@ -892,12 +1841,18 @@ Mono: successfully reloaded assembly
 - Completed reload, in  0.740 seconds
 Domain Reload Profiling:
 	ReloadAssembly (740ms)
+=======
+- Completed reload, in  0.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (737ms)
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (24ms)
+<<<<<<< HEAD
 		EndReloadAssembly (603ms)
 			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -1081,12 +2036,30 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (170ms)
 				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (4ms)
+=======
+		EndReloadAssembly (604ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (248ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (5ms)
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+<<<<<<< HEAD
 Unloading 2307 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 95.0 MB.
 System memory in use after: 95.2 MB.
@@ -4629,6 +5602,14 @@ System memory in use after: 98.6 MB.
 
 Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2952.
 Total: 4.154300 ms (FindLiveObjects: 0.142900 ms CreateObjectMapping: 0.060400 ms MarkObjects: 3.932500 ms  DeleteObjects: 0.017500 ms)
+=======
+Unloading 2308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.1 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2767.
+Total: 3.922600 ms (FindLiveObjects: 0.137800 ms CreateObjectMapping: 0.058200 ms MarkObjects: 3.708200 ms  DeleteObjects: 0.017900 ms)
+>>>>>>> af2816d837e59800a6586a2fa226bc983a21763f
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

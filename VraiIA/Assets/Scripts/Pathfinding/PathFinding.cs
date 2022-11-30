@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PathFinding : MonoBehaviour
 {
@@ -10,12 +11,18 @@ public class PathFinding : MonoBehaviour
     void Update()
     {
         FindPath(seeker.position, target.position);
+        if(Input.GetMouseButtonDown(0))
+        {
+            MouseClickToWorldPosition();
+        }
     }
 
     void Awake()
     {
         grid = GetComponent<GridPathFinding>();
     }
+    
+
 
     void FindPath(Vector3 startPos, Vector3 targetPos)
     {
@@ -61,6 +68,7 @@ public class PathFinding : MonoBehaviour
             }
         }
     }
+    
 
     void RetracePath(NodePathFinding startNode, NodePathFinding endNode) {
         List<NodePathFinding> path = new List<NodePathFinding>();
@@ -84,4 +92,16 @@ public class PathFinding : MonoBehaviour
         }
         return 14*distX + 10 * (distY-distX);
     }
+
+    public void MouseClickToWorldPosition(){
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+
+        if(Physics.Raycast(ray, out hit, 100)){
+            Debug.Log(hit.point);
+            target.position = new Vector3(hit.point.x, 0, hit.point.z);
+        }
+    }
+    
+
 }

@@ -66,6 +66,7 @@ public class GridPathFinding : MonoBehaviour
 
 
     public List<NodePathFinding> path;
+    public float speed = 5f;
 
     void OnDrawGizmos(){
         Gizmos.DrawWireCube(transform.position,new Vector3(gridWorldSize.x,1,gridWorldSize.y));
@@ -88,4 +89,11 @@ public class GridPathFinding : MonoBehaviour
             }
         }
     }
+
+    public Vector3 GetSeekerNextPosition() {
+        Vector3 a = path[0].worldPosition;
+        path.RemoveAt(0);
+        return a;
+    }
+
 }
