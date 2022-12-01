@@ -64,7 +64,7 @@ namespace Complete
                     DisableTankControl();
                 }
             }
-            if (_script.GameTerminado == true)
+            if (_script.GameTerminadoRed == true || _script.GameTerminadoBlue == true)
             {
                 Time.timeScale = 0f;
                 DisableTankControl();
@@ -76,6 +76,7 @@ namespace Complete
             pauseMenu.SetActive(false);
             Time.timeScale = 1f;
             isPaused = false;
+            EnableTankControl();
         }
         public void PauseGame()
         {
@@ -97,7 +98,7 @@ namespace Complete
         {
             Time.timeScale = 1f;
             isPaused = false;
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("_Complete-Game");
         }
 
         private void SpawnAllTanks()

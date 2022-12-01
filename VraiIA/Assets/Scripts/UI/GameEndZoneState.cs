@@ -15,8 +15,16 @@ public class GameEndZoneState : BaseZoneState
     #region Methods   
     public override void StartState()
     {
-      _machine.GameTerminado = true;
-      _machine.EndMenu.SetActive(true);
+      if(_machine._scoreRed > _machine._scoreBlue)
+        {
+          _machine.GameTerminadoRed = true;
+          _machine.EndMenuRed.SetActive(true);
+        }
+        else
+        {
+          _machine.GameTerminadoBlue = true;
+          _machine.EndMenuBlue.SetActive(true);
+        }
       _machine.isPaused = true;
     }
 

@@ -64,14 +64,14 @@ public class OnCaptureZoneState : BaseZoneState
                 _machine._scoreZoneBlue -= Time.fixedDeltaTime;
             }
         }
-        if(_machine._scoreZoneBlue >=15)
+        if(_machine._scoreZoneBlue >=5)
         {
             _bd.setCapturedStateBlue(true);
             _bd.setCapturedStateRed(false);
             _machine._blueCaptured = true;
             _machine.changeState(EzoneState.CAPTURED);
         }
-        if(_machine._scoreZoneRed >= 15)
+        if(_machine._scoreZoneRed >= 5)
         {
             _bd.setCapturedStateRed(true);
             _bd.setCapturedStateBlue(false);

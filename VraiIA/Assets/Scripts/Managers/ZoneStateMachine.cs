@@ -34,8 +34,10 @@ public class ZoneStateMachine : MonoBehaviour
     public TextMeshProUGUI scoreRed;
     public TextMeshProUGUI scoreBlue;
     public bool isPaused;
-    public GameObject EndMenu;
-    public bool GameTerminado = false;
+    public GameObject EndMenuRed;
+    public GameObject EndMenuBlue;
+    public bool GameTerminadoBlue = false;
+    public bool GameTerminadoRed = false;
     public getBehaviourTreeAllParameters _bd;
 
 
@@ -51,7 +53,8 @@ public class ZoneStateMachine : MonoBehaviour
         _statesZoneDict = new Dictionary<EzoneState, BaseZoneState>();
         SubZoneStateInit();
         CurrentZoneState.UpdateState();
-        EndMenu.SetActive(false);
+        EndMenuRed.SetActive(false);
+        EndMenuBlue.SetActive(false);
         Debug.Log(_curentZoneState);
     }
 
@@ -90,7 +93,7 @@ public class ZoneStateMachine : MonoBehaviour
         CurrentZoneState.UpdateState();
         if(_scoreZoneBlue > _scoreZoneRed)
         {
-            int percent = (int)((_scoreZoneBlue / 15) * 100);
+            int percent = (int)((_scoreZoneBlue / 5) * 100);
             int scb = (int)(_scoreBlue);
             fillscore.color = Color.blue;
             score.value = _scoreZoneBlue;
@@ -100,7 +103,7 @@ public class ZoneStateMachine : MonoBehaviour
         }
         else
         {
-            int percent = (int)((_scoreZoneRed / 15) * 100);
+            int percent = (int)((_scoreZoneRed / 5) * 100);
             int scr = (int)(_scoreRed);
             fillscore.color = Color.red;
             score.value = _scoreZoneRed;

@@ -57,11 +57,11 @@ public class CapturedZoneState : BaseZoneState
             _machine._blueCaptured = false;
             _machine.changeState(EzoneState.ONCAPTURE);
         }
-        if((_machine._scoreZoneRed >= 15) & (_machine._scoreRed >= 15))
+        if((_machine._scoreZoneRed >= 5) & (_machine._scoreRed >= 5))
         {
             _machine.changeState(EzoneState.GAMEEND);
         }
-        if((_machine._scoreZoneBlue >= 15) & (_machine._scoreBlue >= 15))
+        if((_machine._scoreZoneBlue >= 5) & (_machine._scoreBlue >= 5))
         {
             _machine.changeState(EzoneState.GAMEEND);
         }
