@@ -14,8 +14,12 @@ namespace Complete
         public Text m_MessageText;                  // Reference to the overlay Text to display winning text, etc.
         public GameObject m_TankPrefab;             // Reference to the prefab the players will control.
         public TankManager[] m_Tanks;               // A collection of managers for enabling and disabling different aspects of the tanks.
+        public static bool isPaused;
+        public GameObject pauseMenu;
+        public GameObject _zonestate;
+        public ZoneStateMachine _script;
 
-        
+
         private int m_RoundNumber;                  // Which round the game is currently on.
         private WaitForSeconds m_StartWait;         // Used to have a delay whilst the round starts.
         private WaitForSeconds m_EndWait;           // Used to have a delay whilst the round or game ends.
@@ -28,6 +32,9 @@ namespace Complete
         
         private void Start()
         {
+            _zonestate = GameObject.FindGameObjectWithTag("Zone");
+            _script = _zonestate.GetComponent<ZoneStateMachine>();
+            pauseMenu.SetActive(false);
             // This line fixes a change to the physics engine.
             Physics.defaultMaxDepenetrationVelocity = k_MaxDepenetrationVelocity;
             
@@ -42,6 +49,56 @@ namespace Complete
             StartCoroutine (GameLoop ());
         }
 
+        public void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                if(isPaused)
+                {
+                    EnableTankControl();
+                    ResumeGame();
+                }
+                else
+                {
+                    PauseGame();
+                    DisableTankControl();
+                }
+            }
+            if (_script.GameTerminado == true)
+            {
+                Time.timeScale = 0f;
+                DisableTankControl();
+            }
+        }
+
+        public void ResumeGame()
+        {
+            pauseMenu.SetActive(false);
+            Time.timeScale = 1f;
+            isPaused = false;
+        }
+        public void PauseGame()
+        {
+            pauseMenu.SetActive(true);
+            Time.timeScale = 0f;
+            isPaused = true;
+        }
+        public void GoToMainMenu()
+        {
+            Time.timeScale = 1f;
+            isPaused = false;
+            SceneManager.LoadScene("Menu");
+        }
+        public void QuitGame()
+        {
+            Application.Quit();
+        }
+        public void Retry()
+        {
+            Time.timeScale = 1f;
+            isPaused = false;
+            SceneManager.LoadScene("SampleScene");
+        }
 
         private void SpawnAllTanks()
         {
@@ -253,7 +310,7 @@ namespace Complete
         }
 
 
-        private void EnableTankControl()
+        public void EnableTankControl()
         {
             for (int i = 0; i < m_Tanks.Length; i++)
             {
@@ -262,7 +319,7 @@ namespace Complete
         }
 
 
-        private void DisableTankControl()
+        public void DisableTankControl()
         {
             for (int i = 0; i < m_Tanks.Length; i++)
             {
