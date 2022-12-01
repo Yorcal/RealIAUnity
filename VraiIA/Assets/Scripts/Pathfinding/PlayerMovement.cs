@@ -12,20 +12,25 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        grid = GameObject.Find("A*").GetComponent<GridPathFinding>();
+        grid = null;
         nextPosistion = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(grid.path.Count>0){
-            nextPosistion = grid.GetSeekerNextPosition();
+        if (GameObject.Find("A*").GetComponent<GridPathFinding>() != null && grid == null){
+            grid = GameObject.Find("A*").GetComponent<GridPathFinding>();
         }
-        
-        if (nextPosistion != transform.position){
-            transform.position = Vector3.MoveTowards(transform.position, nextPosistion, speed * Time.deltaTime);
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(nextPosistion - transform.position), turnSpeed * Time.deltaTime);
+        else {
+            if(grid.path.Count>0){
+                nextPosistion = grid.GetSeekerNextPosition();
+            }
+            
+            if (nextPosistion != transform.position){
+                transform.position = Vector3.MoveTowards(transform.position, nextPosistion, speed * Time.deltaTime);
+                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(nextPosistion - transform.position), turnSpeed * Time.deltaTime);
+            }
         }
     }
 }
