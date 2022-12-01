@@ -15,6 +15,9 @@ public class GameEndZoneState : BaseZoneState
     #region Methods   
     public override void StartState()
     {
+      _machine.EndMenu.SetActive(true);
+      Time.timeScale = 0f;
+      _machine.isPaused = true;
       Debug.Log("FINITO Paco");
     }
 

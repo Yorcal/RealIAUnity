@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class ZoneStateMachine : MonoBehaviour
 {
@@ -32,6 +33,8 @@ public class ZoneStateMachine : MonoBehaviour
     public TextMeshProUGUI text;
     public TextMeshProUGUI scoreRed;
     public TextMeshProUGUI scoreBlue;
+    public bool isPaused;
+    public GameObject EndMenu;
     
     #endregion
 
@@ -43,6 +46,7 @@ public class ZoneStateMachine : MonoBehaviour
         _statesZoneDict = new Dictionary<EzoneState, BaseZoneState>();
         SubZoneStateInit();
         CurrentZoneState.UpdateState();
+        EndMenu.SetActive(false);
         Debug.Log(_curentZoneState);
     }
 
