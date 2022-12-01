@@ -5,15 +5,23 @@ using UnityEngine.Events;
 
 public class PathFinding : MonoBehaviour
 {
-    public Transform seeker, target;
+    private Transform seeker, target;
+    public string seekerTag, targetTag;
     GridPathFinding grid;
+    private bool tankFind = false;
 
     void Update()
     {
+        if(tankFind == false)
+        {
+            seeker = GameObject.FindGameObjectWithTag(seekerTag).transform;
+            target = GameObject.FindGameObjectWithTag(targetTag).transform;
+            tankFind = true;
+        }
         FindPath(seeker.position, target.position);
         if(Input.GetMouseButtonDown(0))
         {
-            MouseClickToWorldPosition();
+            //MouseClickToWorldPosition();
         }
     }
 
@@ -93,7 +101,7 @@ public class PathFinding : MonoBehaviour
         return 14*distX + 10 * (distY-distX);
     }
 
-    public void MouseClickToWorldPosition(){
+    /*public void MouseClickToWorldPosition(){
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
@@ -101,7 +109,7 @@ public class PathFinding : MonoBehaviour
             Debug.Log(hit.point);
             target.position = new Vector3(hit.point.x, 0, hit.point.z);
         }
-    }
+    }*/
     
 
 }
