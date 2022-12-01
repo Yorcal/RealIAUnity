@@ -4,20 +4,31 @@ using UnityEngine;
 
 public class GridPathFinding : MonoBehaviour
 {
-    public Transform player;
+    private Transform player;
+    public string iaTankTag;
     public LayerMask unwalkableMask;
     public Vector2 gridWorldSize;
     public float nodeRadius;
     NodePathFinding[,] grid;
+    
+    private bool tankFind = false;
 
     float nodeDiameter;
     int gridSizeX, gridSizeY;
 
     void Start() {
+        
         nodeDiameter = nodeRadius*2;
         gridSizeX = Mathf.RoundToInt(gridWorldSize.x / nodeDiameter);
         gridSizeY = Mathf.RoundToInt(gridWorldSize.y / nodeDiameter);
         CreateGrid();
+    }
+    void Update(){
+        if(tankFind == false)
+        {
+            player = GameObject.FindGameObjectWithTag(iaTankTag).transform;
+            tankFind = true;
+        }
     }
 
     void CreateGrid(){
