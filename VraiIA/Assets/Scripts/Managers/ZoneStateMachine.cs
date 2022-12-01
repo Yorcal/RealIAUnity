@@ -35,6 +35,9 @@ public class ZoneStateMachine : MonoBehaviour
     public TextMeshProUGUI scoreBlue;
     public bool isPaused;
     public GameObject EndMenu;
+    public bool GameTerminado = false;
+
+    
     
     #endregion
 
