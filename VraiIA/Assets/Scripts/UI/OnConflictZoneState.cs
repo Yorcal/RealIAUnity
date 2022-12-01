@@ -15,17 +15,23 @@ public class OnConflictZoneState : BaseZoneState
     #region Methods   
     public override void StartState()
     {
-      
+      _bd = GameObject.FindWithTag("player2").GetComponent<getBehaviourTreeAllParameters>();
     }
 
     public override void UpdateState()
     {
-        if(_machine.RedCap == true & _machine.BlueCap == false)
+      if(_machine.RedCap == true & _machine.BlueCap == false)
       {
+        _bd.setCaptureStateRed(true);
+        _bd.setCaptureStateBlue(false);
+        _bd.setConflictState(false);
         _machine.changeState(EzoneState.ONCAPTURE);
       }
       else if(_machine.RedCap == false & _machine.BlueCap == true)
       {
+        _bd.setCaptureStateBlue(true);
+        _bd.setCaptureStateRed(false);
+        _bd.setConflictState(false);
         _machine.changeState(EzoneState.ONCAPTURE);
       }
     }

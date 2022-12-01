@@ -28,12 +28,10 @@ public class DecreasingZoneState : BaseZoneState
         if(_machine._scoreZoneBlue > 0)
         {
             _machine._scoreZoneBlue -=  Time.fixedDeltaTime;
-            Debug.Log(Mathf.FloorToInt(_machine._scoreZoneBlue));
         }
         if(_machine._scoreZoneRed > 0)
         {
-            _machine._scoreZoneRed -= Time.fixedDeltaTime;
-            Debug.Log(Mathf.FloorToInt(_machine._scoreZoneRed));
+            _machine._scoreZoneRed -= Time.fixedDeltaTime; 
         }
         if(_machine._scoreZoneBlue <= 0 & _machine._scoreZoneRed <= 0)
         {

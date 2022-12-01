@@ -36,6 +36,8 @@ public class ZoneStateMachine : MonoBehaviour
     public bool isPaused;
     public GameObject EndMenu;
     public bool GameTerminado = false;
+    public getBehaviourTreeAllParameters _bd;
+
 
     
     

@@ -9,6 +9,7 @@ public abstract class BaseZoneState
     protected EzoneState _state = EzoneState.FREE;
     protected ZoneStateMachine _machine = null;
     protected ZoneCollider _collider = null;
+    protected getBehaviourTreeAllParameters _bd = null;
     #endregion
 
     #region Properties

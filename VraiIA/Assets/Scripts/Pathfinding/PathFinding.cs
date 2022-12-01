@@ -8,7 +8,7 @@ public class PathFinding : MonoBehaviour
     private Transform seeker, target;
     public string seekerTag, targetTag;
     GridPathFinding grid;
-    private bool tankFind = false;
+    public bool tankFind = false;
 
     void Update()
     {

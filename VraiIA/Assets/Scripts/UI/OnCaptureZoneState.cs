@@ -15,13 +15,17 @@ public class OnCaptureZoneState : BaseZoneState
     #region Methods   
     public override void StartState()
     {
-      
+        
+        _bd = GameObject.FindWithTag("player2").GetComponent<getBehaviourTreeAllParameters>();
     }
 
     public override void UpdateState()
     {
         if (_machine.RedCap == true & _machine.BlueCap == true)
         {
+            _bd.setConflictState(true);
+            _bd.setCaptureStateBlue(false);
+            _bd.setCaptureStateRed(false);
             _machine.changeState(EzoneState.ONCONFLICT);
         }
     }
@@ -30,44 +34,48 @@ public class OnCaptureZoneState : BaseZoneState
     {
         if (_machine.BlueCap == false & _machine.RedCap == false)
         {
+            _bd.setCaptureStateBlue(false);
+            _bd.setCaptureStateRed(false);
             _machine.changeState(EzoneState.DECREASING);
         }
         if (_machine.BlueCap == true)
         {
+            _bd.setCaptureStateBlue(true);
+            _bd.setCaptureStateRed(false);
             if (_machine._scoreZoneRed <= 0)
             {
                 _machine._scoreZoneBlue += Time.fixedDeltaTime;
-                Debug.Log(_machine._scoreZoneBlue);   
             }
             else
             {
                 _machine._scoreZoneRed -= Time.fixedDeltaTime;
-                Debug.Log(_machine._scoreZoneRed);
             }
         }
         if (_machine.RedCap == true)
         {
+            _bd.setCaptureStateRed(true);
+            _bd.setCaptureStateBlue(false);
             if (_machine._scoreZoneBlue <= 0)
             {
                 _machine._scoreZoneRed += Time.fixedDeltaTime;
-                Debug.Log(_machine._scoreZoneRed);
             }
             else
             {
                 _machine._scoreZoneBlue -= Time.fixedDeltaTime;
-                Debug.Log(_machine._scoreZoneBlue);
             }
         }
         if(_machine._scoreZoneBlue >=15)
         {
+            _bd.setCapturedStateBlue(true);
+            _bd.setCapturedStateRed(false);
             _machine._blueCaptured = true;
-            Debug.Log(_machine._blueCaptured);
             _machine.changeState(EzoneState.CAPTURED);
         }
         if(_machine._scoreZoneRed >= 15)
         {
+            _bd.setCapturedStateRed(true);
+            _bd.setCapturedStateBlue(false);
             _machine._redCaptured = true;
-            Debug.Log(_machine._redCaptured);
             _machine.changeState(EzoneState.CAPTURED);
         }
     }
