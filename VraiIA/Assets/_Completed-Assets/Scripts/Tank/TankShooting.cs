@@ -24,7 +24,7 @@ namespace Complete
         private bool m_canFire;
         private float m_timeFire;
 
-        private void OnEnable()
+        public void OnEnable()
         {
             // When the tank is turned on, reset the launch force and the UI
             m_CurrentLaunchForce = m_MinLaunchForce;
@@ -32,7 +32,7 @@ namespace Complete
         }
 
 
-        private void Start ()
+        public void Start ()
         {
             // The fire axis is based on the player number.
             m_FireButton = "Fire" + m_PlayerNumber;
@@ -44,7 +44,7 @@ namespace Complete
         }
 
 
-        private void Update ()
+        public void Update ()
         {
             // The slider should have a default value of the minimum launch force.
             m_AimSlider.value = m_MinLaunchForce;
@@ -90,7 +90,7 @@ namespace Complete
             }
         }
 
-        private void Fire ()
+        public void Fire ()
         {
             // Set the fired flag so only Fire is only called once.
             m_Fired = true;

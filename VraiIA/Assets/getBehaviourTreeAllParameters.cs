@@ -4,7 +4,7 @@ using UnityEngine;
 using BehaviorDesigner;
 using BehaviorDesigner.Runtime;
 using BehaviorDesigner.Runtime.Tasks;
-
+using Complete;
 
 public class getBehaviourTreeAllParameters : MonoBehaviour
 {
@@ -14,6 +14,7 @@ public class getBehaviourTreeAllParameters : MonoBehaviour
     public BehaviorTree bd = null;
     public SharedVector3 targetPosition;
     public PathFinding pathFinding = null;
+    public TankShooting tankshooting = null;
     #endregion
 
     private float randX, randZ;
@@ -65,6 +66,9 @@ public class getBehaviourTreeAllParameters : MonoBehaviour
         GameObject.Find("A*").GetComponent<PathFinding>().tankFind = false;
     }
 
-
+    /*
+    public void ShootIA(){
+        this.GetComponent<TankShooting>().Fire();
+    }*/
 
 }

@@ -74,7 +74,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
     - UnityEngine.Networking.NetworkIdentity
   sceneClasses:
     Assets/Scenes/MainMenu.unity:
@@ -530,7 +529,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: 4403e04bc6881a5b6635ae3bcdf1890b
+      Hash: d1a9b2adc0a710d0493c5ee36c9764ea
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: getBehaviourTreeAllParameters
@@ -1246,4 +1245,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/_Complete-Game.unity
-  playerPath: C:/Users/ajolivier/Desktop/VraiIA.exe
+  playerPath: C:/Users/ajolivier/Desktop/BuildGroup4/VraiIA.exe
