@@ -88,7 +88,7 @@ namespace Complete
         {
             Time.timeScale = 1f;
             isPaused = false;
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("MainMenu");
         }
         public void QuitGame()
         {
