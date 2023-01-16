@@ -23,6 +23,7 @@ public class PathFinding : MonoBehaviour
         {
             //MouseClickToWorldPosition();
         }
+        
     }
 
     void Awake()
